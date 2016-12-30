@@ -1,4 +1,4 @@
-baseurl = "http://www.tactically-creative.co.uk"
+baseurl = "http://advisor-henry-18063.netlify.com"
 theme = "custom"
 builddrafts = false
 canonifyurls = true
