@@ -1,3 +1,32 @@
 baseurl = "http://www.tactically-creative.co.uk"
-languageCode = "en-us"
+theme = "custom"
+builddrafts = false
+canonifyurls = true
+contentdir = "content"
+languageCode = "en-US"
+layoutdir = "layouts"
+publishdir = "public"
+author = "Jamie Dumont"
 title = "Tactically Creative"
+pygmentsuseclasses = true
+disqusshortname = ""
+pluralizelisttitles = false
+
+[permalinks]
+fixed = ":title/"
+blog = "blog/:slug/"
+
+[params]
+author = "Jamie Dumont"
+cachebuster = true
+dateform = "Jan 2, 2006"
+dateformfull = "Mon Jan 2 2006 15:04:05 MST"
+description = "Example blog"
+logofile = "img/logo.svg"
+faviconfile = "img/icon.svg"
+highlightjs = true
+lang = "en"
+github = "https://github.com/jamiedumont"
+email = "jamie@tactically-creative.co.uk"
+linkedin = "example"
+twitter = "@jamiedumont"
