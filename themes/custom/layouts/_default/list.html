@@ -1,0 +1,14 @@
+{{ partial "header.html" . }}
+<section class="ph3 order-2 order-1-ns">
+    <div class="flex w-100 items-center justify-start mh4-ns">
+        <div class="">
+            <div class="f4 fw5 tracked ttu dark-gray mb2 sans-serif">Blog</div>
+            <ul>
+                {{ range .Data.Pages.ByPublishDate }}
+                {{ partial "li.html" . }}
+                {{ end }}
+            </ul>
+        </div>
+    </div>
+</section>
+{{ partial "footer.html" . }}

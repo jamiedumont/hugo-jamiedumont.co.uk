@@ -1,0 +1,14 @@
+{{ partial "header.html" . }}
+<section class="w-100 ph3 mh4-ns mw7-ns">
+  <div class="w-100 fr-ns w-80-ns">
+      <h2 class="f4 fw5 tracked ttu dark-gray mb2 sans-serif">Blog</h2>
+      <ul>
+      {{ range .Data.Pages.ByPublishDate }}
+          {{ if eq .Section "blog" }}
+              {{ partial "li.html" . }}
+          {{ end }}
+      {{ end }}
+      </ul>
+  </div>
+</section>
+{{ partial "footer.html" . }}

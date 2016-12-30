@@ -1,0 +1,15 @@
+<head>
+{{ partial "meta.html" . }}
+<base href="{{ .Site.BaseURL }}">
+<title>
+{{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
+{{ if eq $url "" }}
+    {{ .Site.Title }}
+{{ else }}
+    {{ if .Params.heading }} {{ .Params.heading }} {{ else }} {{ .Site.Title }} - {{ .Title }} {{ end }}
+{{ end }}
+</title>
+<link rel="canonical" href="{{ .Permalink }}">
+<!-- <link rel="stylesheet" href="https://unpkg.com/tachyons@4.6.1/css/tachyons.min.css"/> -->
+{{ partial "head_includes.html" . }}
+</head>

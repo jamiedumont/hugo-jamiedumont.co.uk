@@ -1,0 +1,12 @@
+{{ partial "header.html" . }}
+<section class="pv4 ph3 flex w-100 items-center justify-center measure-wide lh">
+    <div class="">
+        <div class="">
+            {{ partial "page-heading.html" . }}
+            <div class="markdown">
+                {{ .Content }}
+            </div>
+        </div>
+    </div>
+</section>
+{{ partial "footer.html" . }}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+{{ partial "head.html" . }}
+
+<body class="flex justify-center flex-column items-center w-100 gray sans-serif fw4 lh-copy min-h-100" lang="{{ .Site.Params.lang }}">
+
+{{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
+{{ if eq $url "" }}
+<section class="w-100 ph3 pt4 mh4-ns mw7-ns pb4-ns pt6-ns">
+{{ else }}
+<section class="w-100 ph3 pt4 mh4-ns mw7-ns">
+{{ end }}
+    <div class="w-100">
+        <a class="db center mb3 mw5" href="{{ .Site.BaseURL }}">
+          <img class="" src="{{ .Site.Params.logofile | absURL }}" />
+        </a>
+
+        <nav class="ttu tc mb3 sans-serif fw5">
+            <ul class="list pl4">
+                <a class="dib mr2"href="{{ .Site.BaseURL }}"><li class="f5 fw5 silver">Blog</li></a>
+                <a class="dib mr2"href="{{ .Site.BaseURL }}/about/"><li class="f5 fw5 silver">About</li></a>
+                <a class="dib mr2"href="{{ .Site.BaseURL }}/projects/"><li class="f5 fw5 silver">Projects</li></a>
+            </ul>
+        </nav>
+    </div>
+</section>
