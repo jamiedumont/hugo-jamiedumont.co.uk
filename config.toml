@@ -8,8 +8,6 @@ layoutdir = "layouts"
 publishdir = "public"
 author = "Jamie Dumont"
 title = "Tactically Creative"
-pygmentsuseclasses = true
-disqusshortname = ""
 pluralizelisttitles = false
 
 [permalinks]
@@ -24,7 +22,6 @@ dateformfull = "Mon Jan 2 2006 15:04:05 MST"
 description = "Example blog"
 logofile = "img/logo.svg"
 faviconfile = "img/icon.svg"
-highlightjs = true
 lang = "en"
 github = "https://github.com/jamiedumont"
 email = "jamie@tactically-creative.co.uk"

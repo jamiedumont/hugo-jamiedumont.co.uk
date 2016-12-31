@@ -27,22 +27,6 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/images\/screenshot.png": {
-		"ft": 32768,
-		"iS": 312578,
-		"oA": 0,
-		"oAP": "\/images\/screenshot.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/tn.png": {
-		"ft": 32768,
-		"iS": 126046,
-		"oA": 0,
-		"oAP": "\/images\/tn.png",
-		"oF": 0,
-		"opt": 0
-		},
 	"\/layouts\/404.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -200,19 +184,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/src\/scss\/reset.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/src\/scss\/reset.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/src\/scss\/site.scss": {
 		"aP": 1,
 		"bl": 1,
@@ -248,11 +219,11 @@
 		"oAP": "\/static\/img\/favicon.ico",
 		"oF": 0
 		},
-	"\/static\/js\/site.js": {
+	"\/static\/js\/prism-min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/static\/js\/site-min.js",
+		"oAP": "\/static\/js\/prism-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0

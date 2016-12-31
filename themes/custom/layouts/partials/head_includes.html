@@ -1,5 +1,4 @@
 <!-- HTTPS -->
-
 <script type="text/javascript">
     var baseURL = '{{ .Site.BaseURL }}';
     var host = baseURL.substring(0, baseURL.length - 1).replace(/\//g, '');
@@ -9,18 +8,7 @@
 </script>
 
 <!-- CSS -->
-
-{{ if .Site.Params.highlightjs }}
-  <!-- <link rel="stylesheet" href="/css/prism.css"/> -->
-{{ end }}
-
-<!-- <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/reset.css"> -->
-<!-- <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/pygments.css"> -->
 <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/site.css">
-
-{{range .Site.Params.extracssfiles}}
-    <!-- <link rel="stylesheet" href="{{.}}"> -->
-{{end}}
 
 <!-- Icon -->
 <link rel="shortcut icon"
