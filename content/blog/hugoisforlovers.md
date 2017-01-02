@@ -1,5 +1,5 @@
 +++
-title = "Getting Started with Hugo"
+title = "Starting with Hugo"
 description = ""
 tags = [
     "go",
@@ -15,7 +15,7 @@ categories = [
 menu = "main"
 +++
 
-## Step 1. Install Hugo
+## Step 1. Hugo
 
 Goto [hugo releases](https://github.com/spf13/hugo/releases) and download the
 appropriate version for your os and architecture.

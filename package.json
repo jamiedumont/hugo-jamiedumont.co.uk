@@ -1,0 +1,12 @@
+{
+  "name": "TacticallyCreative",
+  "scripts": {
+    "dev": "brunch watch & hugo server -w"
+  },
+  "devDependencies": {
+    "brunch": "^2.9.1",
+    "javascript-brunch": "^2.0.0",
+    "sass-brunch": "^2.9.0",
+    "tachyons-sass": "^4.6.2"
+  }
+}

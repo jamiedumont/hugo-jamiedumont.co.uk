@@ -1,5 +1,4 @@
 baseurl = "http://advisor-henry-18063.netlify.com"
-theme = "custom"
 builddrafts = false
 canonifyurls = true
 contentdir = "content"
@@ -9,6 +8,8 @@ publishdir = "public"
 author = "Jamie Dumont"
 title = "Tactically Creative"
 pluralizelisttitles = false
+pygmentsuseclasses = true
+PygmentsCodeFences = true
 
 [permalinks]
 fixed = ":title/"
@@ -20,8 +21,8 @@ cachebuster = true
 dateform = "Jan 2, 2006"
 dateformfull = "Mon Jan 2 2006 15:04:05 MST"
 description = "Example blog"
-logofile = "img/logo.svg"
-faviconfile = "img/icon.svg"
+logofile = "logo.svg"
+faviconfile = "icon.svg"
 lang = "en"
 github = "https://github.com/jamiedumont"
 email = "jamie@tactically-creative.co.uk"

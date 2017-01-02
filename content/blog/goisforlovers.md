@@ -77,9 +77,7 @@ A variable is accessed by referencing the variable name.
 
 Variables can also be defined and referenced.
 
-<pre>
-<code class="language-elixir">
-
+``` elixir
     defmodule Tic.Auth do
       use Tic.Web, :controller
 
@@ -93,9 +91,9 @@ Variables can also be defined and referenced.
         assign(conn, :current_user, user)
       end
     end
-    </code>
+```
 
-</pre>
+
 
 
 ## Functions

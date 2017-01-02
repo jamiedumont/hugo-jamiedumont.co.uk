@@ -34,9 +34,12 @@ The default is for Jekyll to publish to `_site` and for Hugo to publish to `publ
 
 1. Change your submodule to point to map `gh-pages` to public instead of `_site` (recommended).
 
+<pre><code class="language-bash">
         git submodule deinit _site
         git rm _site
         git submodule add -b gh-pages git@github.com:your-username/your-repo.git public
+</code>
+</pre>
 
 2. Or, change the Hugo configuration to use `_site` instead of `public`.
 
