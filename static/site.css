@@ -4718,6 +4718,38 @@ template {
   .word-nowrap-l {
     word-break: keep-all; } }
 
+.highlight {
+  overflow-x: scroll;
+  float: left;
+  min-width: 100%; }
+
+.kd, .k {
+  color: #00bfff; }
+
+.nt {
+  color: #00bfff; }
+
+.mi {
+  color: #a2cd5a; }
+
+.nc {
+  color: #98f5ff; }
+
+.na {
+  color: #ccc; }
+
+.n {
+  color: #ccc; }
+
+.s {
+  color: #98f5ff; }
+
+.ss {
+  color: #98f5ff; }
+
+.p {
+  color: #ccc; }
+
 a {
   text-decoration: none;
   color: #428bca; }

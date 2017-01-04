@@ -77,6 +77,17 @@ A variable is accessed by referencing the variable name.
 
 Variables can also be defined and referenced.
 
+``` html
+<ul class="flex-direction-nav">
+  <li class="flex-nav-prev">
+    <a class="flex-prev flex-disabled" href="#" tabindex="-1">Previous</a>
+  </li>
+  <li class="flex-nav-next">
+    <a class="flex-next flex-disabled" href="#" tabindex="-1">Next</a>
+  </li>
+</ul>
+```
+
 ``` elixir
     defmodule Tic.Auth do
       use Tic.Web, :controller

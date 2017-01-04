@@ -1,0 +1,68 @@
+// Variables for deeper blue:
+
+$bright-blue: #00bfff;
+$sky-blue: #98f5ff;
+$gold: #daa520;
+$lime: #a2cd5a;
+$white: #ccc;
+$salmon: #f08080;
+$tan: #deb887;
+$green: #4eee94;
+
+$function: $gold;
+$standard: $white;
+$module: $sky-blue;
+$keyword: $bright-blue;
+$number: $lime;
+$atom: $sky-blue;
+
+.highlight {
+  overflow-x: scroll;
+  float: left;
+  min-width: 100%;
+}
+
+// Elixir keyword
+.kd, .k {
+  color: $keyword;
+}
+
+// HTML element
+.nt {
+  color: $keyword;
+}
+
+// Elixir number
+.mi {
+  color: $number;
+}
+
+// Elixir module
+.nc {
+  color: $module;
+}
+
+// HTML attribute
+.na {
+  color: $standard;
+}
+
+// Elixir everything...sigh
+.n {
+  color: $standard;
+}
+
+// HTML classes
+.s {
+  color: $sky-blue;
+}
+
+// Elixir Atom
+.ss {
+  color: $atom;
+}
+
+// Elixir & HTML syntax
+.p {
+  color: $standard;
+}
