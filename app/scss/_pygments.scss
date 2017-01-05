@@ -17,14 +17,26 @@ $number: $lime;
 $atom: $sky-blue;
 
 .highlight {
-  overflow-x: scroll;
-  float: left;
-  min-width: 100%;
+}
+@media #{$breakpoint-not-small} {
+  .highlight {
+    width: 40em;
+    margin: 2em 0 2em -5em;
+  }
 }
 
 // Elixir keyword
 .kd, .k {
   color: $keyword;
+}
+
+// JS const
+.kr {
+  color: $keyword;
+}
+
+.nx {
+  color: $salmon;
 }
 
 // HTML element

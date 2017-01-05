@@ -1,6 +1,15 @@
 a {
   text-decoration: none;
-  color: #428bca;
+  color: #E36767;
+}
+
+.roboto-slab {
+  font-family: 'Roboto Slab', serif;
+}
+
+.open-sans {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
 }
 
 .min-120px {
@@ -12,7 +21,7 @@ a {
 }
 
 a:hover {
-  color: #2a6496;
+  color: #0B3C56;
 }
 .markdown h1,
 .markdown h2,
@@ -20,14 +29,10 @@ a:hover {
 .markdown h4,
 .markdown h5,
 .markdown h6 {
-  font-size: 22px;
+  font-size: 1rem;
   letter-spacing: -0.005rem;
-  font-weight: 700;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased;
   color: #333333;
-  text-transform: none;
+  font-family: 'Roboto-Slab', sans-serif;
   margin-top: 1.75rem;
 }
 .markdown h1 {
@@ -52,7 +57,7 @@ a:hover {
 .markdown code,
 .markdown pre {
   font-family: 'Ubuntu Mono', 'Menlo', monospace;
-  font-size: 0.98rem;
+  font-size: 0.8rem;
   background-color: #181a26;
   color: #eaeaea;
 }
@@ -86,11 +91,6 @@ a:hover {
 }
 .markdown p {
   font-size: 1em;
-  text-align: justify;
-  line-height: 1.75em;
-  color: #313537;
-  letter-spacing: 0.01rem;
-  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 100;
   margin-top: 0;
   margin-bottom: 1em;
@@ -151,26 +151,23 @@ a:hover {
     padding-right: 5rem;
     padding-left: 1.25rem;
   }
-  .markdown p {
-  font-size: 1.2em;
-}
-.markdown img {
-  margin: 1rem 0;
-  max-width: 100%;
-}
-.markdown table {
-  margin-bottom: 1rem;
-  width: 100%;
-  border: 1px solid #e5e5e5;
-  border-collapse: collapse;
-}
-.markdown td,
-.markdown th {
-  padding: .25rem .5rem;
-  border: 1px solid #e5e5e5;
-}
-.markdown tbody tr:nth-child(odd) td,
-.markdown tbody tr:nth-child(odd) th {
-  background-color: #f7f7f7;
-}
+  .markdown img {
+    margin: 1rem 0;
+    max-width: 100%;
+  }
+  .markdown table {
+    margin-bottom: 1rem;
+    width: 100%;
+    border: 1px solid #e5e5e5;
+    border-collapse: collapse;
+  }
+  .markdown td,
+  .markdown th {
+    padding: .25rem .5rem;
+    border: 1px solid #e5e5e5;
+  }
+  .markdown tbody tr:nth-child(odd) td,
+  .markdown tbody tr:nth-child(odd) th {
+    background-color: #f7f7f7;
+  }
 }

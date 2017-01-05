@@ -1,14 +1,17 @@
 {{ partial "header.html" . }}
-<section class="w-100 ph3 mh4-ns mw7-ns">
-  <div class="w-100 fr-ns w-80-ns">
-      <h2 class="f4 fw5 tracked ttu dark-gray mb2 sans-serif">Blog</h2>
-      <ul>
-      {{ range .Data.Pages.ByPublishDate }}
-          {{ if eq .Section "blog" }}
-              {{ partial "li.html" . }}
-          {{ end }}
+<section class="measure center lh-copy f5">
+  <h2 class="f2 dark-gray lh-title fw7 mv4 roboto-slab">
+    Articles about building for the web &amp; creating a durable business
+  </h2>
+  <p class="fw1 measure mb5">
+    Hi, I'm <a class="link fw5"href="/about">Jamie Dumont</a> - web designer &amp; developer. I'm Lead Developer at <a href=""http://www.bikesoup.com>Bikesoup</a> and work with a small number of private clients. I occasionally have time to tinker with my own projects.
+  </p>
+  <ul class="list pl0">
+  {{ range .Data.Pages.ByPublishDate }}
+      {{ if eq .Section "blog" }}
+          {{ partial "li.html" . }}
       {{ end }}
-      </ul>
-  </div>
+  {{ end }}
+  </ul>
 </section>
 {{ partial "footer.html" . }}

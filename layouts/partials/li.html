@@ -1,4 +1,10 @@
-<li class="flex list items-center">
-    <span class="db f6 gray min-120px">{{ .Date.Format .Site.Params.dateform }}</span>
-    <a href="{{ .Permalink }}"><span>{{ .Title }}</span></a>
+<li class="">
+  <h2 class="mb1 roboto-slab">
+    <a class="link dark-gray" href="{{ .Permalink }}">
+      {{ .Title }}
+    </a>
+  </h2>
+  <span class="lh-copy f6 fw1">
+    {{ .Description }}
+  </span>
 </li>

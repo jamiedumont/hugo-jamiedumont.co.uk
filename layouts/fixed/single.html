@@ -1,12 +1,15 @@
 {{ partial "header.html" . }}
-<section class="pv4 ph3 w-100 measure-wide lh">
-    <div class="">
-        <div class="">
-            {{ partial "page-heading.html" . }}
-            <div class="markdown">
-                {{ .Content }}
-            </div>
-        </div>
-    </div>
+
+<section class="measure center lh-copy mt4">
+
+  {{ partial "page-heading.html" . }}
+
+  <div class="markdown">
+
+    {{ .Content }}
+
+  </div>
+
 </section>
+
 {{ partial "footer.html" . }}

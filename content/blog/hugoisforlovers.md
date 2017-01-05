@@ -1,6 +1,6 @@
 +++
 title = "Starting with Hugo"
-description = ""
+description = "This is a test of whether the preview works"
 tags = [
     "go",
     "golang",
