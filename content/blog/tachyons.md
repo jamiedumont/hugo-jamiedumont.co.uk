@@ -1,6 +1,7 @@
 ---
 date: "2016-12-02"
 title: "Discovering Tachyons"
+description: "Using functional, single-purpose CSS classes to drastically reduce CSS complexity and update woes."
 ---
 
 I’ve been using a CSS framework called Tachyons for the past 9 months, and I think I’ve fallen…hard. 
