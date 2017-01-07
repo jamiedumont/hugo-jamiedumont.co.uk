@@ -1,8 +1,9 @@
 ---
-title: "An ode to a serverless app"
+title: "Why I axed my serverless app"
 date: "2016-11-27"
-description: "I was building a single page app with best of breed technologies, and yet I put a bullet in it's head just days before it was ready to launch. Why?
-"
+description: "I had built a single page, serverless app with the hottest 
+technologies, and yet I put a bullet in it's head just days before it was 
+ready to launch. Why?"
 ---
 
 I recently axed a side project I when it was about 95% done, and more than a few people have since questioned me about the decision. The reasons were varied, nuanced and complicated. However, all stemmed from the fact that my decisions to use a serverless architecture had painted me into a corner.
