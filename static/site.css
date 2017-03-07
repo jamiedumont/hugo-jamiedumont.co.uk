@@ -209,7 +209,7 @@
   border-color: #137752; }
 
 .b--green {
-  border-color: #19a974; }
+  border-color: #19A974; }
 
 .b--light-green {
   border-color: #9eebcf; }
@@ -2592,7 +2592,7 @@ template {
 
 .hover-green:hover,
 .hover-green:focus {
-  color: #19a974; }
+  color: #19A974; }
 
 .hover-light-green:hover,
 .hover-light-green:focus {
@@ -2692,7 +2692,7 @@ template {
 
 .hover-bg-green:hover,
 .hover-bg-green:focus {
-  background-color: #19a974; }
+  background-color: #19A974; }
 
 .hover-bg-light-green:hover,
 .hover-bg-light-green:focus {
@@ -2878,7 +2878,7 @@ template {
   color: #137752; }
 
 .green {
-  color: #19a974; }
+  color: #19A974; }
 
 .light-green {
   color: #9eebcf; }
@@ -3047,7 +3047,7 @@ template {
   background-color: #137752; }
 
 .bg-green {
-  background-color: #19a974; }
+  background-color: #19A974; }
 
 .bg-light-green {
   background-color: #9eebcf; }
@@ -5063,7 +5063,7 @@ template {
 
 a {
   text-decoration: none;
-  color: #E36767; }
+  color: #19A974; }
 
 .roboto-slab {
   font-family: 'Roboto Slab', serif; }
