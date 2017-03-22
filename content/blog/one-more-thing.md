@@ -1,8 +1,9 @@
 +++
 date = "2017-03-15T21:48:01+00:00"
 title = "One More Thing"
-
+description = "Life has a way of slipping by unnoticed, and before you know it, glacial changes have added up to a dramatic change in the landscape. How can we fix this?"
 +++
+
 "Focus" is something that as developers, we get very good at. Unfortunately, in our modern world, we don't get the time we really need to properly commit to long uninterrupted sessions of work. Necessity dictates that we find coping mechanisms, just to deliver and meet our deadlines. 
 
 We get very good at getting our head down, shutting the world out and giving everything we've got to the projects at hand; for as many uninterrupted minutes as we've been gifted.
