@@ -4,8 +4,6 @@ description = "Recent announcements not only break Apple's tradition of secrecy,
 title = "Apple are stepping up to the plate"
 
 +++
-
-
 ## The Work Laptop
 
 I can't think of any other device that's as synonymous with "Web Development" as the MacBook Pro. For years, they've been issued out to legions of developers, and have become the de facto device for anyone, beginner or seasoned-pro, who wants to build software.
@@ -36,8 +34,7 @@ However, most will never go "full iPad", always keeping a Mac around; and that m
 
 Instead, what if you had an iPad Pro and a kick arse desktop setup? Having a monstrously powerful desktop, with multiple large displays is almost certainly a preferable working environment to any 15" laptop, no matter how easy it is to hook into external monitors and the such like.
 
-Thankfully, Apple seems to be thinking this way too. They recently announced that there will be iMac updates this year, and that 
-<a href="http://daringfireball.net/2017/04/the_mac_pro_lives">a complete rethink of the Mac Pro is in the works</a>. They admit that they engineered themselves into a corner with the recent design, and that instead they will be pursuing a highly modular, upgradable computer, with accompanying displays like the good ol' days. The Mac Mini might even survive, although Apple are being tight lipped on that one.
+Thankfully, Apple seems to be thinking this way too. They recently announced that there will be iMac updates this year, and that <a href="http://daringfireball.net/2017/04/the_mac_pro_lives">a complete rethink of the Mac Pro is in the works</a>. They admit that they engineered themselves into a corner with the recent design, and that instead they will be pursuing a highly modular, upgradable computer, with accompanying displays like the good ol' days. The Mac Mini might even survive, although Apple are being tight lipped on that one.
 
 I love how enthusiastic their quotes come across. It sounds like there is a real energy behind the Mac once more, and it's not just languishing in the dark corners of Apple HQ waiting to be put down like many people feared.
 
