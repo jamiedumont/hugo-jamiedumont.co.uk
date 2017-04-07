@@ -10,18 +10,18 @@ title = "Apple are stepping up to the plate"
 
 I can't think of any other device that's as synonymous with "Web Development" as the MacBook Pro. For years, they've been issued out to legions of developers, and have become the de facto device for anyone, beginner or seasoned-pro, who wants to build software.
 
-However, I think that title is starting to fall into question. Don't get me wrong, I still use my circa 2015 MacBook Pro for nearly all my "work", but I've recently been using my iPad Pro (12.9") for my side projects.
-<p class="">I use <a href="http://www.blink.sh">Blink</a>&nbsp;to SSH (or mosh) into a remote server <i>(more on this setup another time)</i>&nbsp;and hack away at these projects as if I was on my MacBook. There is absolutely no reason I couldn't use this setup for 100% of my work.</p>
+However, I think that title is starting to fall into question. Don't get me wrong, I still use my 2015 MacBook Pro for nearly all my "work", but I've recently been using my iPad Pro (12.9") for my side projects.
+<p class="">I use <a href="http://www.blink.sh">Blink</a>&nbsp;to SSH (or mosh) into a remote server -&nbsp;<i>more on this setup another time -</i>&nbsp;and hack away at these projects as if I was on my MacBook. There is absolutely no reason I couldn't use this setup for 100% of my work.</p>
 
-So, when my co-developer asked my advice this morning about which new EmojiBar Pro (MBP) to get, I didn't get that same sense of lust that I normally do around new tech. It's partly because I'm very satisfied with my 2015 MBP, but mainly because I'm completely non-fussed with the latest update.
+So, when my fellow developer at Bikesoup asked my advice this morning about which new EmojiBar Pro (MBP) to get, I didn't get that same sense of lust that I normally do around new tech. It's partly because I'm very satisfied with my 2015 MBP, but mainly because I'm completely non-fussed with the latest update.
 
 ## "Professional" backlash
 
-Apple has been on the receiving end of quite a bit abuse from their "professional users" the last few years - which isn't totally surprising. The new MacBook Pro was a bit of a let down for many. I think they were hoping for something with a bit more poke (and a bit less pricey) after such a long wait. They certainly expected more innovation than Thunderbolt 3 and a small touchscreen. Users of the Mac Pro or Mac Mini have been waiting an age for a meaningful update, and even the iMac was starting to look a little neglected.
+Apple has been on the receiving end of quite a bit abuse from their "professional users" the last few years - which isn't really unexpected. The new MacBook Pro was a bit of a let down for many. I think they were hoping for something with a bit more poke (and a bit less pricey) after such a long wait. They certainly expected more innovation than an upgrade to lots of Thunderbolt 3 ports and touchscreen equivalent of their function keys. Users of the Mac Pro or Mac Mini have been waiting an age for a meaningful update, and even the iMac was starting to look a little neglected.
 
 Couple that with the "Pro" moniker making it's way to iPads, which for many will never be a "Pro" device, no matter how capable; and the "professional users" were starting to feeling like Apple had abandoned them.
 
-Apple's neglect is understandable to a degree. We represent a very costly sector from an R&D standpoint, with very limited scope for profit. To be clear, we're still worth billions to a company like Apple, but are minority compared to the consumer market buying iPhones every year.
+Apple's neglect is understandable to a degree. We represent a very costly sector from an R&D standpoint, with very limited scope for profit. To be clear, we're still worth billions to a company like Apple, but are a minority compared to the consumer market buying iPhones every year.
 
 ## A new direction
 
