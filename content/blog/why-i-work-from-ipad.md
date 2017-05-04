@@ -1,6 +1,6 @@
 ---
 title: Why I work from an iPad
-date: 05/04/2017 3:0 PM
+date: '2017-05-04T15:00:00+01:00'
 description: ''
 draft: true
 
