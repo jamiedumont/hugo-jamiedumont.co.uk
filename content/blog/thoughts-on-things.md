@@ -1,7 +1,6 @@
 +++
 date = "2017-05-20T08:18:38+00:00"
-draft = true
-title = "Thoughts on Things 3"
+title = "Thoughts on Things' Pricing"
 
 +++
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2R6o5t0VK_A" frameborder="0" allowfullscreen></iframe>
