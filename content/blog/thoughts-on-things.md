@@ -1,6 +1,7 @@
 +++
 date = "2017-05-20T08:18:38+00:00"
 title = "Thoughts on Things' Pricing"
+description = "Cultured Code just released Things 3, and it got me thinking about app pricing, and how we could be doing so much better."
 
 +++
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2R6o5t0VK_A" frameborder="0" allowfullscreen></iframe>
