@@ -21,6 +21,8 @@ However, I want to talk about the price. So far, the comparatively spendy price 
 
 In the UK, the Mac version will cost £38.99, the iPad £15.99 and the iPhone £7.99. Now, there's a degree of exchange-rate shenanigans post-Brexit going on here (the US versions cost $49.99, $19.99 and $9.99 respectively), but even so; why is the price an issue?
 
+**UPDATE: June 2017** — Yet more funny-business with the exchange rates... The prices are now £48.99, £19.99 and £9.99. I should be clear, there have be no changes to the prices that Cultured Code have chosen, only Apple's conversion from USD to GBP, based on pricing "tiers". Even by Apple's standards, a 1:1 exchange rate seems a little steep!
+
 Unfortunately, whilst Apple's App Stores have got consumers used to the idea of third-party software, they also instilled the notion that these unofficial apps should be cheap. In the beginning, most apps were either free, £0.99 or £1.99. Of course since then we've seen other common prices like £0.79, £3.99 and a few really high-ticket items (relatively speaking).
 
 Now it's obvious that if the lifetime value of a customer to a developer isn't enough to buy a coffee - particularly after Apple take their cut - then the App Store is fundamentally a flawed concept, or something needs to change. Something has indeed changed. More apps are becoming free...
@@ -91,6 +93,8 @@ What Apple **does** need is an iOS ecosystem that is a legitimate operating syst
 For that to happen, Apple need more people like Cultured Code (and Panic) willing to roll up their sleeves and produce fantastic software because they know they'll be adequately rewarded for it. 
 
 At the risk of being overly-dramatic, I'd say the future of iOS relies heavily on incentivising developers and educating users about the true value of great software.
+
+**Update: June 2017** — I've now bought the iPhone and Mac versions and am loving them. I still maintain the same opinion that I did when writing this article originally. The only thing I'm a little agrieved about, and the reason I decided not to buy the iPad version too, was Apple's laughable exchange rate of 1:1. It just feels wrong!
 
 ---
 
