@@ -2,6 +2,7 @@
 date = "2017-05-04T16:16:35Z"
 description = "I've been swamped lately as a result of saying \"Yes\" too often! When will I learn? In the madness, I think I've found a way to separate the \"important but quiet\" from the \"noisy but shallow\"."
 title = "The Importance of \"Show-stoppers\""
+draft = "true"
 
 +++
 
