@@ -1,6 +1,5 @@
 +++
 date = "2017-07-21T09:42:16+00:00"
-draft = true
 title = "Could unmanageable scale create a more sustainable business?"
 type = "Speculation of Apple's iPhone Pro got me thinking about how the problems created by using cutting-edge technology might impact their business model."
 
