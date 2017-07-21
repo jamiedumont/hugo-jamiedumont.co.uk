@@ -57,6 +57,24 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/content\/blog\/could-unmanageable-scale-create-a-more-sustainable-business.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/content\/blog\/could-unmanageable-scale-create-a-more-sustainable-business.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/content\/blog\/one-more-thing.md": {
 		"cS": 0,
 		"eF": 1,
@@ -515,18 +533,18 @@
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/static\/site-min.js",
-		"oF": 3,
-		"sC": 0,
+		"oAP": "\/src\/js\/site-min.js",
+		"oF": 0,
+		"sC": 1,
 		"tS": 0
 		},
 	"\/src\/js\/sw.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/static\/sw.js",
-		"oF": 2,
-		"sC": 0,
+		"oAP": "\/src\/js\/sw-min.js",
+		"oF": 0,
+		"sC": 1,
 		"tS": 0
 		},
 	"\/src\/scss\/_main.scss": {
@@ -576,18 +594,18 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/static\/site.css",
-		"oF": 3,
+		"oAP": "\/src\/scss\/site.css",
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
 	"\/static\/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/static\/logo.svg",
-		"oF": 1,
-		"opt": 1,
+		"oF": 0,
+		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -604,7 +622,7 @@
 		},
 	"\/static\/logo48.png": {
 		"ft": 32768,
-		"iS": 2769,
+		"iS": 1590,
 		"oA": 0,
 		"oAP": "\/static\/logo48.png",
 		"oF": 0,
@@ -626,7 +644,7 @@
 		},
 	"\/static\/logo96.png": {
 		"ft": 32768,
-		"iS": 5857,
+		"iS": 2588,
 		"oA": 0,
 		"oAP": "\/static\/logo96.png",
 		"oF": 0,
