@@ -2,7 +2,6 @@
 date = "2017-07-21T09:42:16+00:00"
 description = "Speculation of Apple's iPhone Pro got me thinking about how the problems created by using cutting-edge technology might impact their business model."
 title = "Could unmanageable scale create a more sustainable business?"
-type = ""
 
 +++
 There's currently a lot of speculation about what Apple's next iPhone might look like. Most suggest that alongside the usual iterative improvements, we might see a new model commonly being dubbed the "iPhone Pro".
