@@ -1,1 +1,17 @@
-<script src="/site.js"></script>
+<script>
+
+  if ("serviceWorker" in navigator) {
+    window.addEventListener('load', function() {
+      navigator.serviceWorker.register('/sw.js').then(function(registration) {
+        // Registration was successful
+        console.log('ServiceWorker registration was successful with scope: ', registration.scope);
+      }).catch(function(error) {
+        // Registration failed
+        console.error('ServiceWorker registration failed: ', err);
+      });
+    });
+  }
+
+</script>
+
+<script src="/site-min.js"></script>

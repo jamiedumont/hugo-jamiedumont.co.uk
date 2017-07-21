@@ -1,0 +1,30 @@
+{
+  "short_name": "jamiedumont",
+  "name": "Jamie Dumont - Web Designer & Developer",
+  "icons": [
+  {
+      "src": "logo48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "logo96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#23507a",
+  "display": "standalone",
+  "theme_color": "#19A974"
+}
