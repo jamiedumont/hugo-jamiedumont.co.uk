@@ -1,11 +1,11 @@
 ---
-date: '2017-01-04T00:00:00Z'
+date: 2017-01-04 00:00:00 +0000
 title: About
 
 ---
 
 
-I design and build websites, using Elixir, Javascript and a lovely little CMS called Statamic. I'm CTO at [Bikesoup](http://www.bikesoup.com), and have undertaken a complete rebuild of their magazine and marketplace.
+I design and build websites, mainly using Elixir, Javascript or a lovely little CMS called Statamic.
 
 I believe that good things take time. Websites *(much like a business)* should be built to be durable, sustainable and reliable. Anything else makes their creators/owners lives a misery.
 

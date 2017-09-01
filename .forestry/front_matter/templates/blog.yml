@@ -1,0 +1,23 @@
+---
+hide_body: false
+fields:
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: 2017-07-21 09:34:18 +0000
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+  config:
+    required: true
+- name: type
+  label: Type
+  type: text
+  hidden: true
+  default: ''
+- type: textarea
+  name: description
+  label: Description
