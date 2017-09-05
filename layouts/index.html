@@ -3,12 +3,11 @@
   <h2 class="f2 dark-gray lh-title fw7 mv4 roboto-slab">
     Thoughts on building for the web &amp; creating a durable business.
   </h2>
-  <p class="fw1 measure mb1">
-    Hey, I'm <a class="link fw5"href="/about">Jamie</a> and I work as a freelance developer
-  </p>
-  <p class="fw1 measure mb5">
-    I primarily work with Elixir, and it's wonderful framework Phoenix to build web apps and APIs. On the frontend I'm an avid user of functional/atomic CSS, and use Javascript sparingly. That said, I have a wealth of experience building single page, and isomorphic applications using React, Vue and more recently with Elm.
-  </p>
+
+  <div class="mb5 measure fw1 homepage-content">
+    {{ .Content }}
+  </div>
+
   <h3 class="f6 fw5 silver tracked ttu bb b--light-gray pb2">Articles</h3>
   <ul class="list pl0">
   {{ range .Data.Pages.ByPublishDate }}

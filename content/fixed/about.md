@@ -1,16 +1,15 @@
 ---
-date: 2017-01-04 00:00:00 +0000
 title: About
 
 ---
+Hi, my name is Jamie. I'm a Cornwall-based developer/designer who loves building software but just can't shake off the fun of designing either.
 
+I started all this as a Graphic Designer - qualifying with a BA(Hons) from University College Falmouth in 2011. 
 
-I design and build websites, mainly using Elixir, Javascript or a lovely little CMS called Statamic.
+Since then, I've progressively moved towards a more technical role. These days I'm most happy building web applications and sites using a variety of technologies and frameworks, but particularly enjoy API development and designing application and database architectures.
 
-I believe that good things take time. Websites *(much like a business)* should be built to be durable, sustainable and reliable. Anything else makes their creators/owners lives a misery.
+I've been freelancing since 2013, but have recently been working for Bikesoup as their Lead Developer. In that time I've initiated and completed a ground-up rebuild of all their websites and supporting tools.
 
-## Today
+I believe there's great value and beauty in simple, elegant solutions. I get a great deal of satisfaction building durable, flexible software that lasts and will be an asset to a business for years to come.
 
-These days, I live in Cornwall. As much as I (sometimes) enjoyed London, I do better out in the fresh air. Too many hours sat at a keyboard isn't good for you, we all know that! I like balancing them by going for a surf, or a cliff run, or just sitting on the beach with a beer.
-
-Perhaps you'd like to get in touch with me? If so, here's the [link!](mailto:jamiedumont@icloud.com).
+To get in touch about working with me, please [send me an email](mailto:jamiedumont@icloud.com).
