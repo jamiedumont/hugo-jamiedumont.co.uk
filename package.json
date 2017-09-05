@@ -1,6 +1,10 @@
 {
   "name": "JamieDumont",
   "devDependencies": {
+    "brunch": "^2.10.10",
+    "javascript-brunch": "^2.10.0",
+    "sass-brunch": "^2.10.4",
     "tachyons-sass": "^4.6.2"
-  }
+  },
+  "dependencies": {}
 }
