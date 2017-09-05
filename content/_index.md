@@ -1,1 +1,1 @@
-Hi, I'm [Jamie](/about). I'm a Cornwall-based developer/designer  who loves building web applications, but just can't shake off the fun of designing either.
+Hi, I'm [Jamie](/about). I'm a Cornwall-based developer who's got a real love for solving big, hairy performance or scaling problems with web applications. Occasionally, I can't resist going back to my roots as a designer and firing up a blank Sketch document and seeing what happens!
