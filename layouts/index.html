@@ -1,22 +1,25 @@
 {{ partial "header.html" . }}
 <div class="pa3 pa4-ns">
-<section class="measure center lh-copy f5">
-  <h2 class="f2 dark-gray lh-title fw7 mv4 roboto-slab">
-    Thoughts on building for the web &amp; creating a durable business.
-  </h2>
+  <section class="">
+    <div class="center mw6 mt3 mb5 mb6-ns ph2">
+      <h1 class="f4 dark-gray lh-title fw7 mv0 tc roboto-slab">
+        Jamie Dumont. <span class="db fw5 di-ns">Developer based in Cornwall</span>
+      </h1>
+      <h2 class="dark-gray lh-title f2 f1-ns mt3 pt2 tc bt b--light-gray roboto-slab">
+        Building for the web &amp; creating durable businesses.
+      </h2>
+    </div>
 
-  <div class="mb5 measure fw1 homepage-content">
-    {{ .Content }}
-  </div>
-
-  <h3 class="f6 fw5 silver tracked ttu bb b--light-gray pb2">Articles</h3>
-  <ul class="list pl0">
-  {{ range .Data.Pages.ByPublishDate }}
-      {{ if eq .Section "blog" }}
-          {{ partial "li.html" . }}
+  <div class="measure center lh-copy f5">
+    <h3 class="f6 fw5 silver tracked ttu bb b--light-gray pb2">Articles</h3>
+    <ul class="list pl0">
+      {{ range .Data.Pages.ByPublishDate }}
+          {{ if eq .Section "blog" }}
+              {{ partial "li.html" . }}
+          {{ end }}
       {{ end }}
-  {{ end }}
-  </ul>
+    </ul>
+  </div>
 </section>
 </div>
 {{ partial "footer.html" . }}
