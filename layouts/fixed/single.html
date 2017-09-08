@@ -1,15 +1,19 @@
 {{ partial "header.html" . }}
 
-<section class="measure center lh-copy mt4">
+<div class="pa3 pa4-ns">
 
-  {{ partial "page-heading.html" . }}
+  <section class="measure center lh-copy mt4">
 
-  <div class="markdown">
+    {{ partial "page-heading.html" . }}
 
-    {{ .Content }}
+    <div class="markdown">
 
-  </div>
+      {{ .Content }}
 
-</section>
+    </div>
+
+  </section>
+
+</div>
 
 {{ partial "footer.html" . }}
