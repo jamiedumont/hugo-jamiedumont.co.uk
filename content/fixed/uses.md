@@ -8,6 +8,9 @@ Here's a mostly complete run down of the tools and software that I use on
 a near daily basis to get my work done. For now, I've just listed the software,
 but in time I'll add the hardware and services I use too.
 
+This post was inspired by — and very similar to — [Harry Robert's
+list.](https://csswizardry.com/uses/) 
+
 <hr />
 
 # Software
