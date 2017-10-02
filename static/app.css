@@ -5252,8 +5252,7 @@ template {
 
 a {
   text-decoration: none;
-  color: #19A974;
-  font-weight: 500; }
+  color: #19A974; }
 
 .roboto-slab {
   font-family: 'Roboto Slab', serif; }
@@ -5342,6 +5341,9 @@ a:hover {
   font-weight: 100;
   margin-top: 0;
   margin-bottom: 1em; }
+
+.markdown a {
+  font-weight: 500; }
 
 .markdown ul,
 .markdown ol,
