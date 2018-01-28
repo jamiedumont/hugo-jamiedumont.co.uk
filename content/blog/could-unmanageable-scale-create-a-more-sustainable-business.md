@@ -1,9 +1,9 @@
-+++
-date = "2017-07-21T09:42:16+00:00"
-description = "Speculation of Apple's iPhone Pro got me thinking about how the problems created by using cutting-edge technology might impact their business model."
-title = "Could unmanageable scale create a more sustainable business?"
+---
+date: "2017-07-21"
+description: Speculation of Apple's iPhone Pro got me thinking about how the problems created by using cutting-edge technology might impact their business model.
+title: Could unmanageable scale create a more sustainable business?
+---
 
-+++
 There's currently a lot of speculation about what Apple's next iPhone might look like. Most suggest that alongside the usual iterative improvements, we might see a new model commonly being dubbed the "iPhone Pro".
 
 It's thought that this "Pro" model will be _"tomorrow's iPhone, today"_, using advanced tech that would drive the retail price above $1000. The higher price would both allow for cutting edge technology in raw costs, but also restrict the number of sales.

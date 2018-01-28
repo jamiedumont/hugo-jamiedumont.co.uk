@@ -1,9 +1,9 @@
-+++
-date = "2017-03-14T09:59:02+00:00"
-draft = true
-title = "A world that's bigger than us"
+---
+date: "2017-03-14"
+draft: true
+title: A world that's bigger than us
+---
 
-+++
 Can you remember it? It wasn't long ago, but seems much further. That time when the world was small, manageable and knowable. I'm guessing many of my readers won't, they are simply too young.
 
 I remember when mobile phones were new, and were used only to tell your Mum that you'd missed the school bus, but only if you had enough pay-as-you-go credit. I remember that wonderful sound when my Gateway running Windows 95 dialled up, and the internet opened out (slowly) before me.
