@@ -8,11 +8,11 @@
 
   <div class="flex mb4 gray f6">
 
-    <div class="" title="{{ .Date.Format .Site.Params.dateformfull }}">
+    <div class="dib" title="{{ .Date.Format .Site.Params.dateformfull }}">
       {{ .Date.Format .Site.Params.dateform }}
     </div>
 
-    <div class="di f6 mh2 middot"></div>
+    <div class="dib f6 mh2 middot"></div>
     {{ if eq 1 .ReadingTime }}
       {{ .ReadingTime }} minute read
     {{ else }}

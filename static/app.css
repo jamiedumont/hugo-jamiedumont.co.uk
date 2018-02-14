@@ -4701,7 +4701,7 @@ template {
 
 @media screen and (min-width: 30em) {
   .highlight {
-    width: 40em;
+    width: 48em;
     margin: 2em 0 2em -5em; } }
 
 .kd, .k {
@@ -4815,7 +4815,7 @@ a:hover {
 .markdown pre code {
   /* enclosed by 4 backticks (````) */
   padding: 0;
-  font-size: 0.9rem; }
+  font-size: 0.7rem; }
 
 .markdown a code {
   color: #428bca !important; }
@@ -4847,9 +4847,15 @@ a:hover {
 .markdown ul {
   margin-bottom: 1.25rem; }
 
-.markdown li {
+.markdown ul li {
   list-style-type: disc;
   list-style-position: inside; }
+
+.markdown ol li {
+  list-style-type: decimal;
+  list-style-position: outside;
+  margin-bottom: 0.75rem;
+  font-weight: 100; }
 
 .markdown em {
   font-style: italic; }
@@ -4890,6 +4896,8 @@ a:hover {
   .markdown img {
     margin: 1rem 0;
     max-width: 100%; }
+  .markdown pre code {
+    font-size: 0.9rem; }
   .markdown table {
     margin-bottom: 1rem;
     width: 100%;
