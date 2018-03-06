@@ -4,6 +4,9 @@
       {{ .Title }}
     </a>
   </h2>
+  <div class="mv1 silver f7" title="{{ .Date.Format .Site.Params.dateformfull }}">
+    {{ .Date.Format .Site.Params.dateform }}
+  </div>
   <span class="mv0 lh-copy f6 fw1">
     {{ .Description }}
   </span>
