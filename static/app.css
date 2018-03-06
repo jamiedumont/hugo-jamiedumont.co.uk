@@ -5065,6 +5065,9 @@ a {
 a:hover {
   color: #0B3C56; }
 
+.markdown {
+  font-weight: 100; }
+
 .markdown h1,
 .markdown h2,
 .markdown h3,
