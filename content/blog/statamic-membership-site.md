@@ -6,15 +6,15 @@ description: Creating a private members-only site with Statamic is easy. This tu
 
 ---
 
-If you're getting to the stage where your website has a regular audience and things are on the up, you might want to start trying to make a little 💰 back from all the time you've invested. 
+If you're getting to the stage where your website has a regular audience and things are on the up, you might want to start trying to make a little 💰 back from all the time you've invested.
 
-Whilst no-one has really worked out the _best_ way to make from money from publishing online; I think that adding a private members area to your site is still one of the cleaner ways of doing it. If you've got something interesting or unique to teach, you might find that some of your readers are willing to part with a few dollars to get access to exclusive content.
+Whilst no-one has worked out the _best_ way to make from money from publishing online; I think that adding a private members area to your site is still one of the cleaner ways of doing it. If you've got something interesting or unique to teach, you might find that some of your readers are willing to part with a few dollars to get access to exclusive content.
 
 Most people immediately reach for Wordpress in this scenario because of the array of plugins that are already available. Whilst this is often the quick & easy option, you get inherit all of the problems that come with Wordpress. Security is a big issue, made more serious if you're managing payments and personal data too. Customising the templates to take full advantage of the functionality can be a messy affair, and as I've [already found](https://www.jamiedumont.co.uk/blog/wordpress-to-statamic-migration/), Wordpress can leave your precious content in something of a mess!
 
 I much prefer working with [Statamic](https://statamic.com?rfsn=1078755.9626a) as it's flat-file content storage allows you to version control **everything** about a site. Templates...configuration...content...the lot — all stored safely in a Git repo! Built on Laravel, it's secure, powerful and easy to customise; and a great starting point for many of the sites that I've worked on.
 
-Whilst building a membership site with Statamic is a little more work than just installing a Wordpress plugin, the benefits that Statamic brings are more than worth it. You get more control over how your members sign up, and the content that they'll be able to access.
+Whilst building a membership site with Statamic is a little more work than installing a Wordpress plugin, the benefits that Statamic brings are more than worth it. You get more control over how your members sign up, and the content that they'll be able to access.
 
 I've built a few membership sites using Statamic recently, so thought I'd write up a guide covering the basics all membership sites will need.
 
@@ -33,11 +33,11 @@ Fortunately Statamic provides all of this out of the box, except the last requir
 
 _**Sidenote:** the Statamic community is frankly awesome. I also use a language called Elixir, whose [forum](https://elixirforum.com/) is widely considered one of the absolute best examples of what an online developer community should be. Statamic's is even better…_
 
-I’m going to be keeping the pages and templates deliberately simple with just a touch of styling from [Tailwind CSS](https://tailwindcss.com/). The login and registration pages will be set up as _“routes”_ rather than _“pages”_ within Statamic, again to keep this tutorial focussed.
+I’m going to be keeping the pages and templates deliberately simple with a touch of styling from [Tailwind CSS](https://tailwindcss.com/). The login and registration pages will be set up as _“routes”_ rather than _“pages”_ within Statamic, again to keep this tutorial focussed.
 
 If you want to allow these pages to be updated using the Control Panel, then you’ll want to [set them up as _"pages"_](https://docs.statamic.com/pages?rfsn=1078755.9626a) instead and alter the templates as necessary.
 
-If you don’t want to charge for your members area, you can just leave out the Stripe/Charge configuration along with some of the fields on the registration page.
+If you don’t want to charge for your members area, you can leave out the Stripe/Charge configuration along with some of the fields on the registration page.
 
 ## Getting started
 To start off, we’ll need a fresh copy of Statamic. Even though it’s not a free CMS, the gents offer a free trial to use during development. A license will be needed if you want to put the site into production.
@@ -56,7 +56,7 @@ When prompted, setup a user and opt to give them superuser status. This will be 
 Clear out everything — `yes` to all — except on the `Clear users` prompt to keep the admin account you just created.
 
 ## Setup users and permissions
-Users are pretty fundamental to a membership site, so it makes sense to start with them. Fortunately this is all really easy — you’ve already created a user after all!
+Users are pretty fundamental to a membership site, so it makes sense to start with them. Fortunately this is all easy — you’ve already created a user after all!
 
 What we need to do is create a new user “role” and assign it only limited permissions. By default, users in Statamic have access to the Control Panel where you manage your site, which is obviously not what we want our members doing.
 
@@ -66,10 +66,10 @@ There are two ways to configure your site. You can either update the settings us
 
 Normally, the latter approach is discouraged in other systems to avoid messing things up, but in Statamic flat-files are the secret sauce. Working directly with the files _(YAML, Markdown, HTML, etc)_ is a much faster way to work once you’re used to it.
 
-I’ll be showing you how to do most things by editing the files, but configuring user roles and permissions is one of the few things best done in the Control Panel.
+I’ll be showing you how to do most things by editing the files, but configuring user roles and permissions is one of the few things that's easier in the Control Panel.
 
 ### User configuration
-Login into your Control Panel, and head to the **Users** tab at the bottom of left-hand menu. Then head to **User Roles**.
+Login into your Control Panel, and head to the `Users >> User Roles` tab at the bottom of left-hand menu.
 
 Once there, create a new role for your members. Unless you want them to have access to the Control Panel _(unlikely)_, leave the settings as per below.
 
@@ -101,7 +101,7 @@ php please convert:email-login
 For the next part, you’ll need to create a Stripe account if you don’t already have one. I won’t walk you through the process, as Stripe makes everything pretty straightforward.
 
 ### Subscription Plan
-Once you have an account, we'll create your new subscription plan. To do that, head to _Subscriptions > Plans_ in the sidebar, and then click _“Create your first plan”_.
+Once you have an account, we'll create your new subscription plan. To do that, head to `Subscriptions >> Plans` in the sidebar, and click _"Create your first plan"_.
 
 Here you’ll input the details of your membership plan. You can call it whatever you like, but you’ll need to use the ID later when we configure Charge.
 
@@ -138,7 +138,7 @@ When we come to install Charge in a minute, we’ll need to register some webhoo
 
 These allow Stripe to update Charge _(and your website)_ on the status of your subscriptions. If one of your members payment fails, Stripe can pass that data along to your site through a webhook.
 
-In the Stripe sidebar, head to _API > Webhooks_. There you will need to add new endpoint, which will look like this:
+In the Stripe sidebar, head to `API >> Webhooks`. There you will need to add new endpoint, which will look like this:
 
 ![Add a webhook in Stripe dashboard](/img/membership-site/webhook.png)
 
@@ -153,7 +153,7 @@ Again, these endpoints need to be setup for both the _“test”_ and _“live�
 ## Install & configure Charge
 For the next step, you’ll need to purchase and install [Charge](https://silentzconsulting.com/addons/charge).
 
-_**Sidenote**: If you’re coming from the world of Wordpress, you might be thinking that $199 for a Statamic license, and $99 for a Charge license is a bit steep. I can promise you, as someone that’s built both a CMS and a Stripe integration from scratch, these tools are worth every dollar, and should pay for themselves just with the time they save you._
+_**Sidenote**: If you’re coming from the world of Wordpress, you might be thinking that $199 for a Statamic license, and $99 for a Charge license is a bit steep. I can promise you, as someone that’s built both a CMS and a Stripe integration from scratch, these tools are worth every dollar, and should pay for themselves with the time they save you._
 
 You install Charge by moving the folder you’re given into _/site/addons_, and then running...
 ```
@@ -165,7 +165,7 @@ Once installed, we need to configure Charge.
 
 We’ll do this in the Control Panel to avoid copying & pasting the ID number of the user role.
 
-Head to _Addons > Charge_ in the Statamic control panel. There you’ll find a section called _“Plans & Roles”_ which you’ll want to add the ID of the Stripe plan, and select the Statamic role we created earlier.
+Head to `Addons >> Charge` in the Statamic control panel. There you’ll find a section called _“Plans & Roles”_ which you’ll want to add the ID of the Stripe plan, and select the Statamic role we created earlier.
 
 If you’ve been following along, it should look like this:
 
@@ -194,7 +194,7 @@ php please make:theme membership
 
 This gives us a brilliant scaffold to work with. We’ve got a default layout and templates, all the config files in place and even a sass compilation through Laravel Elixir.
 
-I won’t get into any of that and for now we’ll just add the CDN served version of TailwindCSS to the `<head>` in our default layout.
+I won’t get into any of that and for now we’ll add the CDN served version of TailwindCSS to the `<head>` in our default layout.
 
 This will give me some utility classes to quickly style our pages.
 
@@ -247,7 +247,7 @@ Your `/layout/default.html` should now look like this:
 If you want, feel free to add some styling to the layout that you want used on every page (margins, default fonts, etc).
 
 ### Routing
-As I mentioned towards the start, I’m going to be setting up all of these pages as _“routes”_ just because there’s no need at this stage to let Control Panel users update content on these pages.
+As I mentioned towards the start, I’m going to be setting up all of these pages as _“routes”_ because there’s no need at this stage to let Control Panel users update content on these pages.
 
 This is done simply by heading to `/site/settings/routes.yaml` and defining a URL and the template that should be rendered on that page. We’ll go ahead and define all of the routes that we need up front, which looks something like this:
 
@@ -306,7 +306,7 @@ This looks a little like this...
 ``` html
 <input type="text" name="email" value="{{ old:email }}" />
 ```
-Statamic uses the `name` attribute to work out what field this input is for. We also set the value using the `{{ old:email }}` tag to persist inputted data across submissions. Don’t you just hate it when making a mistake on a form clears it!?!
+Statamic uses the `name` attribute to work out what field this input is for. We also set the value using the `{{ old:email }}` tag to persist inputted data across submissions. Don’t you hate it when making a mistake on a form clears it!?!
 
 The last pieces of the puzzle are the submit button which also requires a data attribute of `data-charge-button` and a hidden field that instructs Charge/Stripe which plan this user is subscribing to. That looks a little like this...
 ```
@@ -328,16 +328,12 @@ Create a file at:
 /site/themes/membership/templates/login.html
 ```
 
-Just like the...
-```
-{{ user:register_form }}
-```
-...Statamic provides a...
+Statamic provides a...
 
 ```
 {{ user:login_form }}
 ```
-...tag which works in much the same way.
+...tag which works in much the same way as the one we used for user registration.
 
 However, we’re only going to need an email _(username)_ field, and a password field.
 
@@ -363,18 +359,18 @@ protect:
 
 What this does is tell Statamic what we want to do when protecting content with the `logged_in` type. Here we’re redirecting an unauthorised user to the login page, and appending a redirection URL to it. This will allow the login form to redirect the user back to the page they were trying to access before being stopped.
 
-Whilst you can protect most content types within Statamic, we’re just going to protect a simple page.
+Whilst you can protect most content types within Statamic, but in this tutorial we’ll be protecting a simple page.
 
-Other uses are protecting a Collection, which could be a series of articles, podcasts or chapters in a book. Collections are really flexible!
+Other uses are protecting a Collection, which could be a series of articles, podcasts or chapters in a book. Collections can be very flexible!
 
 ### Pages
 If you head to `/site/content/pages` you should see that you already have an `index.md` file present. By default, this page represent the homepage of your site (at `/`) and uses the `default.html` template.
 
-To add another page, you add a folder with the route that you want, and a similar `index.md` file inside of it. This file can be totally empty initially. Go ahead and add a folder called `private-content` with a blank `index.md` file inside of it. Now take a look at your page at `/private-content` in the browser.
+To add another page, you add a folder with the route that you want, and a similar `index.md` file inside of it. This file can be empty initially. Go ahead and add a folder called `private-content` with a blank `index.md` file inside of it. Now take a look at your page at `/private-content` in the browser.
 
 At this stage, the page will probably be blank, because the default template doesn’t output anything, and you haven’t added any content to the markdown file. If you go back to the `index.md` file, you’ll find that it is no longer blank, and has an `id` number inside of it.
 
-Statamic uses these ids internally to track content and assets. You can delete these ids to your hearts content (Statamic will just create another one the next time it’s requested), but you shouldn’t duplicate any files already containing an id as you’ll confuse Statamic.
+Statamic uses these ids internally to track content and assets. You can delete these ids to your hearts content (Statamic will create another one the next time it’s requested), but you shouldn’t duplicate any files already containing an id as you’ll confuse Statamic.
 
 Modify the `index.md` file so that it looks like this:
 ```
@@ -412,11 +408,11 @@ protect: logged_in
 
 If you now refresh the page _(checking that you’re not already logged in from earlier)_ you should be redirected to the login page. If you still see the same page as before, head to the Control Panel and log out _(click on the user icon in the top-right of the screen)_.
 
-Congratulations, you’ve just protected some content, and made it accessible to members only. You can test this by registering as a member would using some dummy card details.
+Congratulations, you’ve protected some content, and made it accessible to members only. You can test this by registering as a member would using some dummy card details.
 
 Head to `/registration` and enter all your details. For the card fields, use _“4242 4242 4242 4242”_ as the card number, any future date for the expiry _(08/19 for example)_ and any three digits for the CVC number _(e.g. 639)_.
 
-If all goes to plan, you should see the page we just created! Trying to access the Control Panel at `/cp`  with this user account should be denied (exactly what we want).
+If all goes to plan, you should see the page we created! Trying to access the Control Panel at `/cp`  with this user account should be denied (exactly what we want).
 
 Log out, and log back in as the original account you created _(the one that can access the admin panel)_. You should be able to see your new customer and their subscription in the **Charge** section of the dashboard.
 
@@ -427,14 +423,14 @@ Another nice touch would be to create a dashboard for your members that indexes 
 
 If you wanted to provide different subscription tiers _(as mentioned earlier)_ you could restrict content based on a members role by checking for it in the templates: `{{ user:is role=“premium_member” }}`.
 
-Building out some custom email templates that your members receive when signing up _(or cancelling)_ their subscription could be a really professional touch!
+Building out some custom email templates that your members receive when signing up _(or cancelling)_ their subscription could be a professional touch!
 
 As I said at the start, Statamic gives you pretty much all the tools you need to build sites with complex functionality without much work. Unlike a Wordpress plugin, all of this is completely customisable with a huge amount of granularity available when setting permissions or defining content types.
 
 You can find a copy of the codebase [here](https://github.com/jamiedumont/statamic-membership-site). _Note: only the relevant bits to the tutorial are included here. To run it, you'll need to grab a copy of statamic core from their [website](https://statamic.com?rfsn=1078755.9626a)._
 
 ## Feedback
-I hope that this tutorial has been useful. Truthfully, it’s the first one that I’ve written, so if there’s anything that I’ve missed or you think could be better then please [let me know](mailto:jamiedumont@icloud.com). I’d loved to keep writing these tutorials and improving them, and I’d be really grateful for your feedback.
+I hope that this tutorial has been useful. Truthfully, it’s the first one that I’ve written, so if there’s anything that I’ve missed or you think could be better then please [let me know](mailto:jamiedumont@icloud.com). I’d loved to keep writing these tutorials and improving them, and I’d be very grateful for your feedback.
 
 I’m also available to help out with any projects where you want to use Statamic. I’ve built a number of websites using it from small personal sites all the way up to a commercial magazine with millions of readers. Please [get in touch](mailto:jamiedumont@icloud.com) if you would like some help with your site.
 
