@@ -434,6 +434,8 @@ Building out some custom email templates that your members receive when signing 
 
 As I said at the start, Statamic gives you pretty much all the tools you need to build sites with complex functionality without much work. Unlike a Wordpress plugin, all of this is completely customisable with a huge amount of granularity available when setting permissions or defining content types.
 
+You can find a copy of the codebase [here](https://github.com/jamiedumont/statamic-membership-site). _Note: only the relevant bits to the tutorial are included here. To run it, you'll need to grab a copy of statamic core from their [website](https://statamic.com?rfsn=1078755.9626a)._
+
 ## Feedback
 I hope that this tutorial has been useful. Truthfully, it’s the first one that I’ve written, so if there’s anything that I’ve missed or you think could be better then please [let me know](mailto:jamiedumont@icloud.com). I’d loved to keep writing these tutorials and improving them, and I’d be really grateful for your feedback.
 
