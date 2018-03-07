@@ -176,10 +176,6 @@ If you’ve been following along, it should look like this:
 
 Here, you’ll also find other settings you may want to configure such as email templates and default currencies. I won’t dig into these now, but full instructions for Charge can be found [here.](https://bitbucket.org/edalzell/charge/wiki/Home)
 
-Last, you’ll need to add your Charge license key. As far as I can tell, you need to add this directly to the `charge.yaml` file, rather than through the Control Panel.
-
-Head to `/site/settings/addons/charge.yaml` and add your `license_key` there.
-
 Check that everything is installed correctly by heading to the **Charge** section of the Statamic control panel. Common issues here are failing to correctly define the API keys in `.env` or sometimes caused by not running...
 ```
 php please update:addons
@@ -421,11 +417,11 @@ If you now refresh the page _(checking that you’re not already logged in from 
 
 Congratulations, you’ve just protected some content, and made it accessible to members only. You can test this by registering as a member would using some dummy card details.
 
-Head to `/registration` and enter all your details. For the card fields, use _“4242 4242 4242 4242”_ as the card number, and expiry that in the future _(08/19 for example)_ and any three digits for the CVC number _(e.g. 639)_.
+Head to `/registration` and enter all your details. For the card fields, use _“4242 4242 4242 4242”_ as the card number, any future date for the expiry _(08/19 for example)_ and any three digits for the CVC number _(e.g. 639)_.
 
 If all goes to plan, you should see the page we just created! Trying to access the Control Panel at `/cp`  with this user account should be denied (exactly what we want).
 
-Log out, and log back in as the original account you created. You should be able to see your new customer and their subscription in the **Charge** section of the dashboard.
+Log out, and log back in as the original account you created _(the one that can access the admin panel)_. You should be able to see your new customer and their subscription in the **Charge** section of the dashboard.
 
 ## Where next?
 Now you’ve got the basics going, there’s no stopping you! From here you could set up a collection that’s also protected _(adding the `protect` value to the `folder.yaml` file)_.
