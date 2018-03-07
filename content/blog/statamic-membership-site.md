@@ -6,68 +6,65 @@ description: Creating a private members-only site with Statamic is easy. This tu
 
 ---
 
-Remember that craze a few years back where everyone and their dog wanted to build a niche site that generated some passive income? I guess a few sites from that era have survived, but so much of the advice back then just reeked of “get rich quick” schemes, and I doubt many will have stayed the course.
+Remember that craze a few years back where everyone and their dog wanted to build a niche site that generated some passive income? I guess a few sites from that era have survived, but so much of the advice back then just reeked of _“get rich quick”_ type schemes, and I doubt many will have stayed the course.
 
-The poster child of this madness was the paid membership site. Assuming you had something interesting to say and an audience keen to listen, the idea was you could put all of your writing or podcasting behind a paywall and watch the 💸💸💸 roll in.
+The poster child of this concept was the paid membership site. Assuming you had something interesting to say and an audience keen to listen, the idea was you could put all of your writing or podcasting behind a paywall and watch the 💸💸💸 roll in.
 
-I sidestepped a lot this because I had stopped working with Wordpress at that stage, and it was often cited as the defacto choice. There were plenty of plugins available that allowed you to add this paywall around your content without too much hassle. But the problem was you still ended up with a Wordpress site at the end of it…shame.
+I sidestepped a lot this because I had stopped working with Wordpress at that stage, and it was often cited as the defacto choice. There were plenty of plugins available that allowed you to add this paywall around your content without too much hassle. But the problem was you still ended up with a Wordpress site at the end of it…
 
-Blogging is starting to see a resurgence again, now that everyone has wised up to the fact that social networks are someone else’s playgrounds; and at any stage they can change the rules or just pick up the football you were playing with and go home.
+Independent blogging is starting to become popular again now that everyone has wised up to the fact that social networks are someone else’s playgrounds; and at any stage they can change the rules or just pick up the ball you were playing with and go home.
 
 Whilst no-one has really worked out the _best_ way to make from money from publishing online; adding a paid area to your site with exclusive content is still the cleanest way for independent writers to make a little back from all the time they invest in their sites.
 
-But this isn’t 2013, and I think we can do a little better than Wordpress. Statamic is probably my favourite CMS for this type of site, and I’ve recently built a few membership sites with it. Sit tight whilst I show you how to do it.
+But this isn’t 2013, and I don't want to build another Wordpress site. Statamic is probably my favourite CMS for this sort of thing, and I’ve recently built a few membership sites with it. Sit tight whilst I show you how.
 
 ## What are we building?
 By the end of this tutorial you should have a site with private content that your members can get access to for a few pounds a month. If you’re not familiar with Statamic, go and [check it out quickly](https://statamic.com?rfsn=1078755.9626a) and then come back. It’s a simple system on the face of it, but it’s got loads of goodies under the hood!
 
 The basic requirements of any membership site are:
 
-* The concept of “Users” with roles and permissions.
+* The concept of _“Users”_ with roles and permissions.
 * Users can register and later login.
 * Editors can publish and edit the content.
 * Some of the content is protected, and only accessible to members with an active subscription.
 * A way to charge your members for access, and for editors to manage their accounts & subscriptions.
 
-Fortunately Statamic provides all of this out of the box, except the last requirement. For the billing and subscription management we’re going to be using Stripe via an Addon (what Statamic calls its plugins) called [Charge](https://silentzconsulting.com/addons/charge) written by Erin, one of the Statamic community’s Addon gurus.
+Fortunately Statamic provides all of this out of the box, except the last requirement. For the billing and subscription management we’re going to be using Stripe via an Addon _(what Statamic calls its plugins)_ called [Charge](https://silentzconsulting.com/addons/charge) written by Erin, one of the Statamic community’s Addon gurus.
 
-_**Sidenote:** the Statamic community is frankly awesome. I also use a language called Elixir, whose [forum](https://elixirforum.com/) is widely considered one of the absolute best examples of what an online developer community should be. Statamics is even better…_
+_**Sidenote:** the Statamic community is frankly awesome. I also use a language called Elixir, whose [forum](https://elixirforum.com/) is widely considered one of the absolute best examples of what an online developer community should be. Statamic's is even better…_
 
-I’m going to be keeping the pages and templates deliberately simple with just a touch of styling from [Tailwind CSS](https://tailwindcss.com/). The login and registration pages will be set up as “routes” rather than “pages” within Statamic, again to keep this tutorial focussed.
+I’m going to be keeping the pages and templates deliberately simple with just a touch of styling from [Tailwind CSS](https://tailwindcss.com/). The login and registration pages will be set up as _“routes”_ rather than _“pages”_ within Statamic, again to keep this tutorial focussed.
 
-If you want to allow these pages to be updated using the Control Panel, then you’ll want to [set them up as pages](https://docs.statamic.com/pages?rfsn=1078755.9626a) instead and alter the templates we’ll be creating as necessary.
+If you want to allow these pages to be updated using the Control Panel, then you’ll want to [set them up as _"pages"_](https://docs.statamic.com/pages?rfsn=1078755.9626a) instead and alter the templates as necessary.
 
-If you don’t want to charge for your members area, you can just leave out the Stripe/Charge configuration and some of the fields on the registration page.
+If you don’t want to charge for your members area, you can just leave out the Stripe/Charge configuration along with some of the fields on the registration page.
 
 ## Getting started
-To start off with, we’ll need a fresh copy of Statamic. Even though it’s not free, the gents offer a free trial to use during development. A license will be needed if you want to put the site into production.
+To start off, we’ll need a fresh copy of Statamic. Even though it’s not a free CMS, the gents offer a free trial to use during development. A license will be needed if you want to put the site into production.
 
 The [install docs](https://docs.statamic.com/installing?rfsn=1078755.9626a) cover everything you need to know, but if you’re on macOS then I recommend using [Laravel Valet](https://laravel.com/docs/5.4/valet) as your local dev environment and the [Statamic CLI](https://docs.statamic.com/installing?rfsn=1078755.9626a#command-line-installation) tool to create a new site.
 
 To install a new site, and clean out the demo content, run the following:
 ```
 statamic new membership-site
-```
-
-When prompted, setup a user and opt to give them superuser status. This will be your admin account.
-
-```
 cd membership-site
 php please clear:site
 ```
 
-Clear out everything — `yes` to all — except the `Clear users` prompt to keep the admin account you just created.
+When prompted, setup a user and opt to give them superuser status. This will be your admin account.
+
+Clear out everything — `yes` to all — except on the `Clear users` prompt to keep the admin account you just created.
 
 ## Setup users and permissions
 Users are pretty fundamental to a membership site, so it makes sense to start with them. Fortunately this is all really easy — you’ve already created a user after all!
 
-What we need to do is create a new user “role” and assign it only limited permissions. By default, users in Statamic have access to the control panel where you manage your site, which is obviously not what we want our members doing.
+What we need to do is create a new user “role” and assign it only limited permissions. By default, users in Statamic have access to the Control Panel where you manage your site, which is obviously not what we want our members doing.
 
 _**Sidenote:** Statamic recently added the ability to store users in a database, rather than as flat-files. This is useful if your site reaches a scale that starts to cause performance issues, or if you want to share your users with another system. However, seeing as we don’t need to worry about either just yet_  😉  _we’ll be sticking with flat-files._
 
 There are two ways to configure your site. You can either update the settings using the Control Panel at _"membership-site.dev/cp"_ or by editing the settings files directly.
 
-Normally, the latter approach is discouraged in other systems to avoid messing things up, but in Statamic flat-files are the secret sauce. Working directly with the files (YAML, Markdown, HTML, etc) is a much faster way to work once you’re used to it.
+Normally, the latter approach is discouraged in other systems to avoid messing things up, but in Statamic flat-files are the secret sauce. Working directly with the files _(YAML, Markdown, HTML, etc)_ is a much faster way to work once you’re used to it.
 
 I’ll be showing you how to do most things by editing the files, but configuring user roles and permissions is one of the few things best done in the Control Panel.
 
