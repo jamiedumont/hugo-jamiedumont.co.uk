@@ -6,17 +6,17 @@ description: Creating a private members-only site with Statamic is easy. This tu
 
 ---
 
-Remember that craze a few years back where everyone and their dog wanted to build a niche site that generated some passive income? I guess a few sites from that era have survived, but so much of the advice back then just reeked of _“get rich quick”_ type schemes, and I doubt many will have stayed the course.
+If you're getting to the stage where your website has a regular audience and things are on the up, you might want to start trying to make a little 💰 back from all the time you've invested. 
 
-The poster child of this concept was the paid membership site. Assuming you had something interesting to say and an audience keen to listen, the idea was you could put all of your writing or podcasting behind a paywall and watch the 💸💸💸 roll in.
+Whilst no-one has really worked out the _best_ way to make from money from publishing online; I think that adding a private members area to your site is still one of the cleaner ways of doing it. If you've got something interesting or unique to teach, you might find that some of your readers are willing to part with a few dollars to get access to exclusive content.
 
-I sidestepped a lot this because I had stopped working with Wordpress at that stage, and it was often cited as the defacto choice. There were plenty of plugins available that allowed you to add this paywall around your content without too much hassle. But the problem was you still ended up with a Wordpress site at the end of it…
+Most people immediately reach for Wordpress in this scenario because of the array of plugins that are already available. Whilst this is often the quick & easy option, you get inherit all of the problems that come with Wordpress. Security is a big issue, made more serious if you're managing payments and personal data too. Customising the templates to take full advantage of the functionality can be a messy affair, and as I've [already found](https://www.jamiedumont.co.uk/blog/wordpress-to-statamic-migration/), Wordpress can leave your precious content in something of a mess!
 
-Independent blogging is starting to become popular again now that everyone has wised up to the fact that social networks are someone else’s playgrounds; and at any stage they can change the rules or just pick up the ball you were playing with and go home.
+I much prefer working with [Statamic](https://statamic.com?rfsn=1078755.9626a) as it's flat-file content storage allows you to version control **everything** about a site. Templates...configuration...content...the lot — all stored safely in a Git repo! Built on Laravel, it's secure, powerful and easy to customise; and a great starting point for many of the sites that I've worked on.
 
-Whilst no-one has really worked out the _best_ way to make from money from publishing online; adding a paid area to your site with exclusive content is still the cleanest way for independent writers to make a little back from all the time they invest in their sites.
+Whilst building a membership site with Statamic is a little more work than just installing a Wordpress plugin, the benefits that Statamic brings are more than worth it. You get more control over how your members sign up, and the content that they'll be able to access.
 
-But this isn’t 2013, and I don't want to build another Wordpress site. Statamic is probably my favourite CMS for this sort of thing, and I’ve recently built a few membership sites with it. Sit tight whilst I show you how.
+I've built a few membership sites using Statamic recently, so thought I'd write up a guide covering the basics all membership sites will need.
 
 ## What are we building?
 By the end of this tutorial you should have a site with private content that your members can get access to for a few pounds a month. If you’re not familiar with Statamic, go and [check it out quickly](https://statamic.com?rfsn=1078755.9626a) and then come back. It’s a simple system on the face of it, but it’s got loads of goodies under the hood!
@@ -438,4 +438,4 @@ I hope that this tutorial has been useful. Truthfully, it’s the first one that
 
 I’m also available to help out with any projects where you want to use Statamic. I’ve built a number of websites using it from small personal sites all the way up to a commercial magazine with millions of readers. Please [get in touch](mailto:jamiedumont@icloud.com) if you would like some help with your site.
 
-Alternatively, I’ll shortly be releasing some Statamic themes with this sort of functionality built in right from the start. If you’d be interested in hearing about these, then please subscribe to my newsletter below!
+Alternatively, I’ll shortly be releasing some Statamic themes with this sort of functionality already built in. If you’d be interested in hearing about these, then please subscribe to my newsletter below!
