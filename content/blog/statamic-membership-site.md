@@ -1,7 +1,6 @@
 ---
 title: Build a membership site with Statamic
 date: 2018-03-09
-draft: true
 description: Creating a private members-only site with Statamic is easy. This tutorial shows you how to protect content, and charge for access to it.
 
 ---
