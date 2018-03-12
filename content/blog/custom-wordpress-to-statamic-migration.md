@@ -5,7 +5,7 @@ title: Wordpress to Statamic migration
 
 ---
 
-The gentlemen over at Statamic have just put out an [official Wordpress plugin](https://statamic.com/blog/goodbye-wordpress) to help developers move their content over to Statamic. There was already plenty of good reasons to make the move, but the content migration was often a hurdle that was just too big for some developers.
+The gentlemen over at [Statamic](https://statamic.com?rfsn=1078755.9626a) have just put out an [official Wordpress plugin](https://statamic.com/blog/goodbye-wordpress?rfsn=1078755.9626a) to help developers move their content over to Statamic. There was already plenty of good reasons to make the move, but the content migration was often a hurdle that was just too big for some developers.
 
 Having migrated Bikesoup’s magazine from Wordpress to Statamic last summer, I can attest to just how awkward a process it can be. Fortunately, this new plugin makes it an incredibly simple process that takes just a few minutes to get the content moved over, leaving you plenty of time to use Statamic's awesome features you’ve been desperate to try out.
 
