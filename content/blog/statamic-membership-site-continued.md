@@ -1,7 +1,6 @@
 ---
 title: Private content with Statamic
 date: 2018-03-23
-draft: true
 description: I go into more detail on the ways you can protect content and restrict access on a Statamic site.
 ---
 
