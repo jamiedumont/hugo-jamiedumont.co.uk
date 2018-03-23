@@ -122,7 +122,7 @@ And the template would look like this:
 
   <h1>Private items for {{ first_name }} {{ last_name }}</h1>
 
-  {{ collection:items private_for:is="{id}" }}`
+  {{ collection:items :private_for:is="id" }}`
     <!-- Item here -->
   {{ /collection:items }}
 
