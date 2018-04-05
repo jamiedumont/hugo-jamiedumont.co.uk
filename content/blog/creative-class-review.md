@@ -1,7 +1,6 @@
 ---
 date: "2018-04-06"
 description: "Creative Class is a great course for freelancers wanting to learn about the \"other stuff\" needed to work for yourself. It's one of the few courses I'd happily pay for again."
-draft: true
 title: "Creative Class Review"
 ---
 [Creative Class](https://creativeclass.co/ref/37/)* opens for enrollment this week, so I thought it would be a good time to review my experience of it.
