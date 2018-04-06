@@ -11,13 +11,8 @@
 <link rel="stylesheet" href="/app.css">
 
 <!-- Icon -->
-<link rel="shortcut icon"
-{{ if .Site.Params.faviconfile }}
-    href="{{ .Site.Params.faviconfile | absURL }}"
-{{ else }}
-    href="/img/favicon.ico"
-{{ end }}
->
+{{ partial "favicon.html" }}
+
 
 <!-- PWA -->
 <link rel="manifest" href="/manifest.json">
