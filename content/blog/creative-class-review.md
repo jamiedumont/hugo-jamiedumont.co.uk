@@ -5,7 +5,7 @@ title: "Creative Class Review"
 ---
 [Creative Class](https://creativeclass.co/ref/37/)* opens for enrollment this week, so I thought it would be a good time to review my experience of it.
 
-**UPDATE** I've been given a discount code for anyone wanting to sign up for the Creative Class. Just use JAMIESE at the checkout!
+**UPDATE** — I've been given a discount code for anyone wanting to sign up for the Creative Class. Just use JAMIESE at the checkout!
 
 <a href="https://creativeclass.co/ref/37/" title="Learn the business of freelancing"><img src="https://creativeclass.co/wp-content/uploads/2017/09/cc-aff03.jpg" alt="Learn the business of freelancing"></a>
 
@@ -47,7 +47,7 @@ I’ve already said it, but Creative Class was a huge purchase for me that I cou
 
 If you’re a solo developer like me that want to get their business running smoothly, then I’d really encourage you to [enrol for Creative Class’ next intake](https://creativeclass.co/ref/37/)* on 8th April.
 
-**UPDATE** I've been given a discount code for anyone wanting to sign up for the Creative Class. Just use JAMIESE at the checkout!
+**UPDATE** — I've been given a discount code for anyone wanting to sign up for the Creative Class. Just use JAMIESE at the checkout!
 
 ---
 
