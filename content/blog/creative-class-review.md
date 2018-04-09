@@ -5,6 +5,8 @@ title: "Creative Class Review"
 ---
 [Creative Class](https://creativeclass.co/ref/37/)* opens for enrollment this week, so I thought it would be a good time to review my experience of it.
 
+*UPDATE!!!:* I've been given a discount code for anyone wanting to sign up for the Creative Class. Just use JAMIESE at the checkout!
+
 <a href="https://creativeclass.co/ref/37/" title="Learn the business of freelancing"><img src="https://creativeclass.co/wp-content/uploads/2017/09/cc-aff03.jpg" alt="Learn the business of freelancing"></a>
 
 CC is a course for freelancers from Paul Jarvis and Kayleigh Moore that covers all the “other stuff” that comes with working for yourself. It assumes that you’ve got a creative skill — be it writing, design or development — and shows you how to use that skill to earn a living. It covers many of the common pitfalls for new freelancers like pricing, contracts, on-boarding processes and creating a network of contacts to help keep you busy.
@@ -44,6 +46,8 @@ It also provides access to the original version of Creative Class that was just 
 I’ve already said it, but Creative Class was a huge purchase for me that I could have really regretted. Instead it’s probably the only course that I’d pay for again if I needed to — it has been, and continues to be that useful!
 
 If you’re a solo developer like me that want to get their business running smoothly, then I’d really encourage you to [enrol for Creative Class’ next intake](https://creativeclass.co/ref/37/)* on 8th April.
+
+*UPDATE!!!:* I've been given a discount code for anyone wanting to sign up for the Creative Class. Just use JAMIESE at the checkout!
 
 ---
 
