@@ -1,7 +1,7 @@
 ---
 date: "2018-04-13"
 description: Chasing down success in business and software development with small, incremental improvements.
-title: 1% better
+title: 1 percent better
 ---
 
 Often the margin between winning and losing in sport can be incredibly small. Races are regularly won by fractions of a second and it's rare to find an athlete or team that truly dominates their sport for years without the slightest hint of competition. Software & business however is dominated by a few giants (Facebook, Google, Amazon, Apple, etc) that are so unreachable that they aren’t really playing the same game as the rest of us.
