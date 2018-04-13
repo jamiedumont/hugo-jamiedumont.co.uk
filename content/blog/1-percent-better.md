@@ -33,7 +33,9 @@ Much like Dave Brailsford, I’m of the firm belief that success takes time and 
 
 Many others before me have written about this approach. [Harry Roberts](https://csswizardry.com/2017/06/refactoring-tunnels/) talks about short _"Refactoring tunnels"_ that aim to keep the scope of changes small and iterative rather than requiring large rewrites of a codebase fraught with unknowns. [Jerod Santo at Changelog](https://changelog.com/posts/slow-down-to-go-faster) illustrates how slowing down can help our software grow faster. The entire ethos behind Basecamp is steady, sustainable business growth that's ["enough"](https://m.signalvnoise.com/reconsider-41adf356857f).
 
-If your business **is** your software, then this approach is even more important. Software is an unruly beast that's often hard to fully comprehend if the codebase is large with many people working on it. It's both intangible and unpredictable despite being perfectly logical. The developers mentioned above understand that to manhandle and strong arm software with large sweeping changes is to risk losing control over it. When your business depends heavily on your software you can inadvertently stop all progress dead and sacrifice future progress by pushing for a quick-win.
+If your business **is** your software, then this approach is even more important. Software is an unruly beast that's often hard to fully comprehend if the codebase is large with many people working on it. It's both intangible and unpredictable despite being perfectly logical.
+
+The developers mentioned above understand that to manhandle and strong arm software with large sweeping changes is to risk losing control over it. When your business depends heavily on your software you can inadvertently stop all progress dead and sacrifice future progress by pushing for a quick-win.
 
 It's important to understand that by failing to embrace the notion of _"1% better"_ and chasing glory through large pivots you not only pin all your hopes on a risky strategy (otherwise known as gambling) but forsake the small incremental gains too. If you shoot for the stars, you won't necessarily land on the moon* — you'll probably crash and burn.
 
@@ -47,13 +49,17 @@ Fortunately, the campaign is a huge success, and you get hundreds of new users v
 
 Alternatively, if you took the same time and looked at your ranking for certain keywords, you might have seen that your site actually ranks very well in the search engine results, but that doesn’t seem to convert to traffic. You dig a little deeper and discover that the meta description of some of your pages is a little ‘off’ and could definitely be better. You make some improvements, and sit back and wait.
 
-After a few weeks, you check back on your click-through-ratio and find that it’s gone up a few percent. That’s certainly not enough of an improvement that you can call it a day and retire, but it results in the same couple of hundred extra users passing through your site. The difference is that this improvement, whilst less dramatic and requiring a little lead time before it's visible; is permanent, and the traffic is of much higher quality and more likely to become customers. Unlike the advertising campaign it didn’t cost anything other than your time, and it will continue providing that little lift whilst you continue to find other small improvements.
+After a few weeks, you check back on your click-through-ratio and find that it’s gone up a few percent. That’s certainly not enough of an improvement that you can call it a day and retire, but it results in the same couple of hundred extra users passing through your site.
+
+The difference is that this improvement, whilst less dramatic and requiring a little lead time before it's visible; is permanent, and the traffic is of much higher quality and more likely to become customers. Unlike the advertising campaign it didn’t cost anything other than your time, and it will continue providing that little lift whilst you continue to find other small improvements.
 
 This concept is effectively that of compound interest which Einstein once allegedly** called _“the most powerful force in the universe”_. Whilst website traffic, bug density or conversion ratios do not always compound as money does, it’s obvious how these small improvements can aggregate into substantial changes.
 
 ## Putting it into practise
 
-I've been taking this approach with both my client work and side projects for the past 6 months or so, and I'm pleased to say that it has been really beneficial. Much like Jerod's sentiment of "slow down to go faster" I've found that focussing on smaller, incremental releases to have resulted in greater progress being made. I've got side-projects that I've had on the back-burner for months built and shipped within weeks. Clients have seen continuous improvements and we're both spurred on and motivated by the regular "wins".
+I've been taking this approach with both my client work and side projects for the past 6 months or so, and I'm pleased to say that it has been really beneficial. Much like Jerod's sentiment of _"slow down to go faster"_ I've found that focussing on smaller, incremental releases to have resulted in greater progress being made.
+
+Side-projects that I've had on the back-burner for months have been built and shipped within weeks. Clients have seen continuous improvements in both the performance and finances of their site and we're both spurred on and motivated by the regular "wins".
 
 <hr />
 
