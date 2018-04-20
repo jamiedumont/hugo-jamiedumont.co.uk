@@ -1,7 +1,6 @@
 ---
 date: 2018-04-20
-description:
-draft: true
+description: I've enjoyed regularly publishing on this site, but it's distracted me from why I originally decided to write. I take a moment to think about how I can improve this site.
 title: A Moment to Pause
 ---
 
