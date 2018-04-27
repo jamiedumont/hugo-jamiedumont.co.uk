@@ -17,7 +17,7 @@ My thought process was that back when smart-casual thankfully wasn’t a thing, 
 
 I started with a pair of Levi 501s as they were the de facto choice when looking for “true” jeans; but unfortunately they succumbed just as quickly. The only difference was that their demise hurt all the more because they cost £100 instead of £20! I’m guessing the extra £80 must have gone to the marketing department… I tried a few other expensive pairs, even trying another pair of 501s in case my originals were part of a bad batch, but they all met the same fate. In the end I resigned myself to buying cheap jeans and throwing them away every 6 months.
 
-That was, until I discovered a company in Wales called [Hiut Denim](https://hiutdenim.co.uk). For three decades, 400 people in a small town called Cardigan made jeans. One day the factory closed, leaving all their knowledge and skills behind and unused. Huit was created to use those skills and bring manufacturing back to the town.
+That was, until I discovered a company in Wales called [Hiut Denim](https://hiutdenim.co.uk). For three decades, 400 people in a small town called Cardigan made jeans. One day the factory closed, leaving all their knowledge and skills behind and unused. Hiut was created to use those skills and bring manufacturing back to the town.
 
 In their own words:
 
@@ -29,7 +29,7 @@ However, I couldn’t afford a pair when I first found out about them. In fact, 
 
 There’s no point trying to compare them to my old 501s, as they come from two totally different philosophies. One is a product, designed to make the company money by selling as many units as the market will suffer and cutting costs wherever possible. The other is all about making something the best it can possibly be. One is about the price tag and the brand, the other is about craftsmanship and the pursuit of excellence.
 
-It will sound silly, but I smile every time I put on my Huits. Being able to own and experience a product that someone has put so much time, attention and care into feels like a privilege.
+It will sound silly, but I smile every time I put on my Hiuts. Being able to own and experience a product that someone has put so much time, attention and care into feels like a privilege.
 
 ## Buying responsibly
 I don’t go to extremes, but I try to maintain a minimalist ethos about my possessions. I enjoy the simplicity that comes with a lack of “stuff”, but I don’t treat the items I own as commodities that are readily interchangeable.
@@ -42,7 +42,7 @@ I buy with an eye for quality — the item will last longer being more economica
 
 This is fundamentally about good design. There is immeasurable satisfaction to be found in the use of a tool that is well made, singular in it’s purpose and elegant in it’s execution.
 
-As Huit would say: “Do one thing well”.
+As Hiut would say: “Do one thing well”.
 
 ## Surroundings inform your work
 Surrounding yourself in trinkets and nice things sounds like something a dragon would do, sat atop it’s mountain of gold and jewels; but I think there’s actually some real world value to this approach.
