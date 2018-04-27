@@ -83,6 +83,6 @@ Leicas would be used by passionate photographers that intimately understand the 
 
 We're a society consumed by the desire for "stuff", but the alternative isn't to waive any enjoyment that could be derived from our possessions. Instead what if we properly appreciated them. That's hard to do for mass-produced semi-disposable items, but buy something that's authentic, constructed of quality materials and lovingly made and you'll find the same joy that the creator did.
 
-I can’t conclude this any better than the folks over at Huit, so here it is:
+I can’t conclude this any better than the folks over at Hiut, so here it is:
 
 > There is a great deal of satisfaction to be gained from making something well, of such superior quality that you know it is going to stand the test of time. It makes the hard work and the obsessing over each and every detail worth all the effort. That’s our reward.  
